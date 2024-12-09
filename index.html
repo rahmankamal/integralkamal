@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Website Kelompok 7 tentang Materi Turunan Matematika">
-    <title>Website Kelompok 7 - Materi Integral</title>
+    <title>Kamal - Materi Integral</title>
     <script type="text/javascript" async
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
     </script>
@@ -439,17 +439,19 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 
    <!-- Section Anggota Team -->
-   <section id="team">
+<section id="team">
     <h1>INFORMATIKA KELAS D</h1>
-    <h3>Berikut adalah developer yang menyusun website ini.</h3>
-    <div class="team-card" onclick="showPopup(this)">
-        <div class="team-image">
-            <img src="foto4.jpeg" alt="Foto Kamal Fadhilrahman">
+    <h3>Berikut adalah anggota kelompok kami yang menyusun website ini.</h3>
+
+    <div class="team-section">
+        <div class="team-card" onclick="showPopup(this)">
+            <div class="team-image">
+                <img src="foto4.jpeg" alt="Foto Kamal Fadhilrahman">
+            </div>
+            <h3>Kamal Fadhilrahman</h3>
+            <p>247006111122</p>
         </div>
-        <h3>Kamal Fadhilrahman</h3>
-        <p>247006111122</p>
     </div>
-</div>
 
     <!-- Pop-Up -->
     <div id="popup" class="popup">
@@ -466,18 +468,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <!-- CSS -->
 <style>
-    
     #team {
         background: linear-gradient(135deg, #9ebe6a 0%, #fc7aa1 100%);
         padding: 50px 20px;
         text-align: center;
         color: white;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
     }
 
     h1 {
@@ -502,20 +497,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     .team-card {
         background-color: white;
-        border-radius: 25px;
+        border-radius: 15px;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         padding: 25px;
-        width: 350px;
+        width: 250px;
         transition: all 0.3s ease;
         position: relative;
         overflow: hidden;
         cursor: pointer;
-        max-width: 350px;
-        margin: 25px auto;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        cursor: pointer;
-        transition: transform 0.3s ease;
     }
 
     .team-card:hover {
@@ -601,7 +590,7 @@ document.addEventListener('DOMContentLoaded', () => {
         color: #333;
     }
 
-    .close-btn:hover {
+        .close-btn:hover {
         color: red;
     }
 </style>
